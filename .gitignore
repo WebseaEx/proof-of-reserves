@@ -1,0 +1,56 @@
+# =====================
+#  Secrets & Credentials
+# =====================
+config/config.json
+config/user_config.json
+config/cex_config.json
+config/proof.csv
+
+# =====================
+#  ZK Proving/Verification Keys
+# =====================
+zkpor4*
+zkpor864*
+*.pk.*
+*.vk.*
+*.save
+
+# =====================
+#  User/Business Data
+# =====================
+example_data/
+*.csv
+
+# =====================
+#  macOS
+# =====================
+.DS_Store
+
+# =====================
+#  Local IDE/Agent Config
+# =====================
+.reasonix/
+reasonix.toml
+
+# =====================
+#  Build Artifacts
+# =====================
+main
+/dist/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# =====================
+#  Go
+# =====================
+vendor/
+
+# =====================
+#  Environment files
+# =====================
+.env
+.env.*
+!.env.example

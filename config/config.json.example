@@ -1,0 +1,17 @@
+{
+  "MysqlDataSource" : "root:YOUR_PASSWORD@tcp(127.0.0.1:3306)/zkpos?parseTime=true",
+  "DbSuffix": "2025052102",
+  "UserDataFile": "./example_data/",
+  "TreeDB": {
+    "Driver": "redis",
+    "Option": {
+      "Addr": "127.0.0.1:6666"
+    }
+  },
+  "Redis": {
+    "Host": "127.0.0.1:6380",
+    "Type": "node",
+    "Password": "YOUR_REDIS_PASSWORD"
+  },
+  "ZkKeyName": "./zkpor4"
+}
